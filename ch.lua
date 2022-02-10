@@ -1,8 +1,9 @@
 local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ernckyirmiuc/lstrc/main/main.lua"))()
 
-local MainUI = UILibrary.Load("Lifting Simulator ||By -- Ernck||")
+local MainUI = UILibrary.Load("KKPloxy -- Ernck")
 local FirstPage = MainUI.AddPage("Ev")
 local SecondPage = MainUI.AddPage("Satın Al")
+local ThirdPage = MainUI.AddPage("Discord, vb.")
 
 FirstPage.AddToggle("Otomatik Farm", false, function(Value)
 toggle = Value
@@ -27,3 +28,4 @@ SecondPage.AddButton("Satın Alma Menüsünü Aç", function()
     game:GetService("Players").LocalPlayer.PlayerGui["Main_Gui"]["UpgradeMenu_Frame"].Visible = true
 end)
 SecondPage.AddButton("Otomatik Satın Al(Yakında...)")
+ThirdPage.AddButton("Discord")
