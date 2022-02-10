@@ -350,7 +350,7 @@ function UILibrary.Load(GUITitle)
 			SearchBarContainer.Size = UDim2.new(1,0,0,20)
 			SearchBarContainer.Parent = DisplayPage
 			
-			local SearchBox = TextBox("Search...")
+			local SearchBox = TextBox("Ara")
 			SearchBox.Name = "SearchInput"
 			SearchBox.Position = UDim2.new(0,20,0,0)
 			SearchBox.Size = UDim2.new(1,-20,1,0)
