@@ -1,4 +1,4 @@
-local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ernckyirmiuc/lstrc/main/main"))()
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/Ernckyirmiuc/lstrc/main/main.lua"))()
 
 local MainUI = UILibrary.Load("Lifting Simulator ||By -- Ernck||")
 local FirstPage = MainUI.AddPage("Ev")
